@@ -8,7 +8,7 @@ public class Funcao2 {
 
     }
     public static int soma(int a, int b){//deve receber os parametros no parenteses
-        return a + b; //retornar
+        return a + b; //retornar a soma
 
     }
 }
