@@ -38,7 +38,7 @@ public class Vetores {
             */
         //Outra forma de exibir vetor abaixo:
         String [] letras = {"A", "B", "C", "D", "E"};
-        System.out.println(Arrays.toString(letras))
+        System.out.println(Arrays.toString(letras));
         }
     }
 
