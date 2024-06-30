@@ -162,7 +162,7 @@ public class Cachorro {
 //            this.estadoDeEspirito = "neutro";
 //        }
 //        return estadoDeEspirito;
-//    }
+//    } /
 
 //+--------------+----------------------+---------------------------------------+
 //        |   Nível      | Dentro da mesma      | Fora do pacote, mas em subclasses    |
