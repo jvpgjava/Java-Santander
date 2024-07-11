@@ -7,17 +7,23 @@ public class Main {
     public static void main(String[]args){
 
         //construtor
-        Cachorro cachorro1 = new Cachorro ("Puppy", "Marrom", 25, 5.5, 5, "nada");
+        Cachorro cachorro1 = new Cachorro ("Rex", "Marrom", 25, 5.5, 5, "nada");
+
+        System.out.println(cachorro1.getNumeroDeCachorros());
+
         Cachorro cachorro2 = new Cachorro ("Puppy", "Marrom", 25, 5.5, 5, "nada");
 
-        System.out.println(cachorro1.toString()); //vai ser exibido textos estranhos com numeros aleatorios diferentes nos dois, o que significa que na memoria temos 2 objetos diferentes
-        System.out.println(cachorro2.toString());
+        System.out.println(cachorro2.getNumeroDeCachorros());
+        System.out.println(cachorro1.getNumeroDeCachorros()); //qualquer objeto que eu perguntar responde mesmo valor, ou seja 2
 
-        //se eu utilizar como variavel de referencia, vão estar no mesmo lugar os objetos:
-//        cachorro1 = cachorro2;
-        System.out.println("-----------------------");
-        System.out.println(cachorro1.toString());
-        System.out.println(cachorro2.toString());
+//        System.out.println(cachorro1.toString()); //vai ser exibido textos estranhos com numeros aleatorios diferentes nos dois, o que significa que na memoria temos 2 objetos diferentes
+//        System.out.println(cachorro2.toString());
+//
+//        //se eu utilizar como variavel de referencia, vão estar no mesmo lugar os objetos:
+////        cachorro1 = cachorro2;
+//        System.out.println("-----------------------");
+//        System.out.println(cachorro1.toString());
+//        System.out.println(cachorro2.toString());
 
         //@Override
         //    public String toString() {

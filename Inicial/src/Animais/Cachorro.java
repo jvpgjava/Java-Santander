@@ -27,6 +27,10 @@ public class Cachorro {
         System.out.println("AU AU");
     }
 
+    public void soar() {
+        System.out.println("AU AU");
+    }
+
     public String pegar() {
         return "bolinha";
     }
