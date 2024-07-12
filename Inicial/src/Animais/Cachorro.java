@@ -1,6 +1,6 @@
 package Animais;
 
-public class Cachorro {
+public class Cachorro extends Animal { //herança, declarei que todos são animais
 
     //private String nome; //private só ele mesmo consegue acessar, da mesma classe
     //protected String nome;
