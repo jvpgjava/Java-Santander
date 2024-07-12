@@ -13,23 +13,23 @@ public class Cachorro {
 
     //atributos
     static int numeroDeCachorros;
-
-    private String nome;
-    private String cor;
-    private int altura;
-    private double peso;
+//
+//    private String nome;
+//    private String cor;
+//    private int altura;
+//    private double peso;
     private int tamanhoDoRabo;
-    private String estadoDeEspirito;
-
-    public void comer() {}
-
-    public void latir() {
-        System.out.println("AU AU");
-    }
-
-    public void soar() {
-        System.out.println("AU AU");
-    }
+//    private String estadoDeEspirito;
+//
+//    public void comer() {}
+//
+//    public void latir() {
+//        System.out.println("AU AU");
+//    }
+//
+//    public void soar() {
+//        System.out.println("AU AU");
+//    }
 
     public String pegar() {
         return "bolinha";
