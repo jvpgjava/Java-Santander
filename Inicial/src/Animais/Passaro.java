@@ -18,14 +18,14 @@ public class Passaro extends Animal {
 //
 //        numeroDePassaros ++;
 //    }
-
-//    void comer(){}
+//void comer(){}
 //
 //    void dormir(){}
 //
 //    void soar(){
 //        System.out.println("PIU PIU");
 //    }
+//
 
 
 }

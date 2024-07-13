@@ -142,7 +142,7 @@ public class Cachorro extends Animal { //herança, declarei que todos são anima
     }
     //botao direito e toString, faz e gera automatico os metodos toString, igual dos getter e setters
 
-    @Override
+    @Override //pega um método que é do pai daquela classe e ela altera o resultado dele
     public String toString() {
         return "Cachorro{" +
                 "nome='" + nome + '\'' +
