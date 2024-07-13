@@ -21,14 +21,11 @@ public class Animal {
         this.peso = peso;
     }
 
-    public Animal() {
-    }
-
     protected void comer(){}
 
     protected void dormir(){}
 
-    protected void soar(){
+    public void soar(){
         System.out.println("  ");
     }
 

@@ -56,6 +56,7 @@ public class Cachorro extends Animal { //herança, declarei que todos são anima
     //construtores adicionais
     // Construtor
     public Cachorro(String cor, String nome, int altura, double peso, int tamanhoDoRabo, String estadoDeEspirito) {
+        super(cor, nome, peso);
         this.nome = nome;
         this.cor = cor;
         this.altura = altura;
@@ -146,6 +147,11 @@ public class Cachorro extends Animal { //herança, declarei que todos são anima
         return "Cachorro{" +
                 "nome='" + nome + '\'' +
                 '}';
+    }
+
+    @Override
+    public void soar() {
+        System.out.println("AU AU!!");
     }
 }
 

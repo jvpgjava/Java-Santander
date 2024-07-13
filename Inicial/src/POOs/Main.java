@@ -3,6 +3,7 @@ package POOs;
 
 import Animais.Cachorro;
 import Animais.Gato;
+import Animais.Passaro;
 
 public class Main {
     public static void main(String[]args){
@@ -10,7 +11,14 @@ public class Main {
         //construtor
         Cachorro cachorro1 = new Cachorro ("Marrom", "Rex", 25, 5.5, 5, "nada");
 
-        Gato gato1 = new Gato("Preto", "Felix", 7.0);
+        Gato gato1 = new Gato("Preto", "Felix", 4.5);
+
+        Passaro passaro1 = new Passaro("Azul", "Frajola", 0.5);
+
+        cachorro1.soar();
+        gato1.soar();
+        passaro1.soar();
+
 //        System.out.println(cachorro1.getNumeroDeCachorros());
 //
 //        Cachorro cachorro2 = new Cachorro ("Puppy", "Marrom", 25, 5.5, 5, "nada");

@@ -37,4 +37,9 @@ public class Gato extends Animal {
               "nome='" + nome + '\'' +
               '}';
    }
+
+   @Override //quando ele chamar o método, ele funciona de forma diferente, para isso override
+   public void soar() {
+      System.out.println("MIAU MIAU!!");
+   }
 }
