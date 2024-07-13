@@ -3,6 +3,10 @@ package Animais;
 public class Passaro extends Animal {
 
       static int numeroDePassaros;
+
+      public Passaro(String cor, String nome, double peso) {
+            super(cor, nome, peso);
+      }
 //    private String nome;
 //    private String cor;
 //    private int altura;

@@ -14,6 +14,16 @@ public class Animal {
 //    private double peso;
 //    private String estadoEspirito;
 
+
+    public Animal(String cor, String nome, double peso) {
+        this.cor = cor;
+        this.nome = nome;
+        this.peso = peso;
+    }
+
+    public Animal() {
+    }
+
     protected void comer(){}
 
     protected void dormir(){}

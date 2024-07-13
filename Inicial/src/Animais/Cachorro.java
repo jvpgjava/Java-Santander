@@ -51,20 +51,19 @@ public class Cachorro extends Animal { //herança, declarei que todos são anima
     //botao direito, dps em generate, constroi automatico
 
     //construtor padrão
-    public Cachorro(){}
+//    public Cachorro(){}
 
     //construtores adicionais
-    public Cachorro(String nome, String cor, int altura, double peso, int tamanhoDoRabo, String estadoDeEspirito) {
+    // Construtor
+    public Cachorro(String cor, String nome, int altura, double peso, int tamanhoDoRabo, String estadoDeEspirito) {
         this.nome = nome;
         this.cor = cor;
         this.altura = altura;
         this.peso = peso;
         this.tamanhoDoRabo = tamanhoDoRabo;
         this.estadoDeEspirito = estadoDeEspirito;
-
-        numeroDeCachorros ++; //++ como se eu aumentasse um
+        numeroDeCachorros++; // Incrementa o número de cachorros
     }
-
 
     //métodos
 

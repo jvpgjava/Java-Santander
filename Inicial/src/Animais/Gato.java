@@ -3,6 +3,10 @@ package Animais;
 public class Gato extends Animal {
 
    static int numeroDeGatos;
+
+   public Gato(String cor, String nome, double peso) {
+      super(cor, nome, peso); //mandando para o construtor pai que pode utilizar esses atributos
+   }
 //   private String nome;
 //   private String cor;
 //   private int altura;

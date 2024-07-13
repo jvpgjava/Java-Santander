@@ -2,19 +2,21 @@ package POOs;
 
 
 import Animais.Cachorro;
+import Animais.Gato;
 
 public class Main {
     public static void main(String[]args){
 
         //construtor
-        Cachorro cachorro1 = new Cachorro ("Rex", "Marrom", 25, 5.5, 5, "nada");
+        Cachorro cachorro1 = new Cachorro ("Marrom", "Rex", 25, 5.5, 5, "nada");
 
-        System.out.println(cachorro1.getNumeroDeCachorros());
+        Gato gato1 = new Gato("Preto", "Felix", 7.0);
+//        System.out.println(cachorro1.getNumeroDeCachorros());
+//
+//        Cachorro cachorro2 = new Cachorro ("Puppy", "Marrom", 25, 5.5, 5, "nada");
 
-        Cachorro cachorro2 = new Cachorro ("Puppy", "Marrom", 25, 5.5, 5, "nada");
-
-        System.out.println(cachorro2.getNumeroDeCachorros());
-        System.out.println(cachorro1.getNumeroDeCachorros()); //qualquer objeto que eu perguntar responde mesmo valor, ou seja 2
+//        System.out.println(cachorro2.getNumeroDeCachorros());
+//        System.out.println(cachorro1.getNumeroDeCachorros()); //qualquer objeto que eu perguntar responde mesmo valor, ou seja 2
 
 //        System.out.println(cachorro1.toString()); //vai ser exibido textos estranhos com numeros aleatorios diferentes nos dois, o que significa que na memoria temos 2 objetos diferentes
 //        System.out.println(cachorro2.toString());
