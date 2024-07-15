@@ -1,9 +1,11 @@
 package POOs;
 
 
+import Animais.Animal;
 import Animais.Cachorro;
 import Animais.Gato;
 import Animais.Passaro;
+import Loja.Petshop;
 
 public class Main {
     public static void main(String[]args){
@@ -13,11 +15,49 @@ public class Main {
 
         Gato gato1 = new Gato("Preto", "Felix", 4.5);
 
+        //polimorfirmo
+          Animal gato2 = new Gato("Preto", "Felix", 4.5);
+       // Gato gato3 = new Animal("Preto", "Felix", 4.5); //não pode, ele vai dar erro no poliformismo
+//        Animal gato4 = new Animal("Preto", "Felix", 4.5); //aqui criamos objeto de uma classe abstrata logo vai dar erro, para arrumar é apagar ou tranformar pra uma classe de verdade
+          Animal passaro4 = new Passaro("Preto", "Felix", 4.5);
+
         Passaro passaro1 = new Passaro("Azul", "Frajola", 0.5);
 
+        Petshop petshop = new Petshop();
+//
+//        petshop.darBanho(cachorro1);
+//        System.out.println(cachorro1.getEstadoDeEspirito());
+//
+//        petshop.darBanho(gato1);
+//        System.out.println(gato1.getEstadoDeEspirito());
+//
+//        petshop.tosar(cachorro1);
+//        System.out.println(cachorro1.getEstadoDeEspirito());
+
+      //Abaixo métodos de soar de cachorro, gato e passaro
         cachorro1.soar();
         gato1.soar();
         passaro1.soar();
+
+        //escritas de variaveis
+//        int _$teste$ = 2; //int, long e byte = 0;
+//        double ______ = 23.3;
+//        String int = "teste"; //não aceita pelo int ser do proprio java, mas se for iNt aceitaria por exemplo
+//        int inteiro; //Aqui seria como se int = 0, pois não coloquei nada, ou seja, os tipos sao default(0), exceto double e float
+//        float $$; //double e float tem seus valores como 0.0
+//        boolean $87; //tem seu valor como false, se ficar em default
+//        char ch; //char é vazio, não aparece nada em seu default
+//        String teste; //valor de qualquer objeto é null.
+//
+//
+//        double d = 5.00d;
+//        float f = 3.00f;
+//        float x = f + d; //por serem tipos diferentes, a conta não vai ser feita, para resolver é tranformar a variavel na mesma:
+//        float x = f + (float) d;
+//        System.out.println(x);
+//
+//        int a = 23_456_789; //o Java permite que coloquemos underline no lugar dos pontos, para representar um número
+
 
 //        System.out.println(cachorro1.getNumeroDeCachorros());
 //
